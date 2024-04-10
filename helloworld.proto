@@ -11,6 +11,10 @@ message Person {
   optional string email = 3;
 }
 
+message People {
+  repeated Person myFriends = 1;
+}
+
 // example of an enumeration 
 enum Corpus {
   CORPUS_UNSPECIFIED = 0;
